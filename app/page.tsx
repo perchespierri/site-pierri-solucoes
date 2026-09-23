@@ -151,24 +151,6 @@ function HeroSection() {
                 </td>
                 <td className="py-2.5 px-4.5 text-foreground text-xs">{CONTACT_INFO.coverage}</td>
               </tr>
-              <tr className="border-b border-foreground/5">
-                <td className="py-2.5 px-4.5 text-muted font-mono text-[9px] tracking-[0.08em] uppercase">
-                  {techCard.fields.artEmission}
-                </td>
-                <td className="py-2.5 px-4.5">
-                  <span className="bg-success/10 text-success text-[9px] py-1 px-2.5 tracking-[0.08em] uppercase font-mono border border-success/20">
-                    {CREA_INFO.status}
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td className="py-2.5 px-4.5 text-muted font-mono text-[9px] tracking-[0.08em] uppercase">
-                  {techCard.fields.specialties}
-                </td>
-                <td className="py-2.5 px-4.5 text-primary font-serif text-base">
-                  {totalServices}
-                </td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -186,7 +168,7 @@ function StatsBar() {
     <section className="flex flex-col sm:flex-row flex-wrap border-b border-foreground/10 bg-card-light">
       <div className="flex-1 min-w-35 py-6 px-4 sm:px-8 md:px-13 border-b sm:border-b-0 sm:border-r border-foreground/10">
         <p className="font-serif text-3xl sm:text-4xl text-foreground font-normal -tracking-[0.02em]">
-          {SERVICES.length}+
+          {SERVICES.length}
         </p>
         <p className="text-[9px] text-muted mt-1.5 tracking-widest uppercase font-mono">
           {stats.specialties}
@@ -298,7 +280,7 @@ function CreaSection() {
             {PERSONAL_INFO.fullName}
           </p>
           <p className="text-[11px] text-muted mb-4.5 font-mono tracking-[0.04em]">
-            {PERSONAL_INFO.fullTitle} · Especialidade: {PERSONAL_INFO.specialty}
+            {PERSONAL_INFO.fullTitle}
           </p>
           <div className="h-px bg-foreground/10 mb-4.5" />
           <div className="flex justify-between items-end">
@@ -317,14 +299,6 @@ function CreaSection() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-3.5 pt-3.5 border-t border-foreground/5 flex justify-between">
-            <span className="text-[9px] font-mono text-accent tracking-[0.08em] uppercase">
-              {creaSection.validityLabel} · {CREA_INFO.validity}
-            </span>
-            <span className="text-[9px] font-mono text-success-light tracking-[0.08em] uppercase">
-              ● {CREA_INFO.status}
-            </span>
           </div>
         </div>
       </div>
