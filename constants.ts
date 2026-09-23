@@ -55,7 +55,7 @@ export const CONTACT_INFO = {
   // Número no formato internacional sem símbolos (DDI + DDD + número)
   whatsappNumber: "5516981949538",
   whatsappMessage: "Olá! Vim pelo site da Pierri Soluções",
-  email: "pierriengenhariamecanica@gmail.com",
+  email: "perchespierri@gmail.com",
   city: "Araraquara, SP",
   coverage: "Todo o Brasil",
   businessHours: "Seg-Sex, 8h-18h",
