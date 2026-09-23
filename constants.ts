@@ -43,7 +43,7 @@ export const PERSONAL_INFO = {
 // ---------- INFORMAÇÕES CREA ----------
 export const CREA_INFO = {
   council: "CREA-SP",
-  registrationNumber: "000.000.000-0",
+  registrationNumber: "5071930886",
   validity: "31/12/2030",
   status: "Ativo",
   emissionStatus: "Disponível",
