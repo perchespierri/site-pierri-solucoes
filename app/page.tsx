@@ -122,7 +122,7 @@ function HeroSection() {
                   {techCard.fields.name}
                 </td>
                 <td className="py-2.5 px-4.5 text-foreground font-medium text-xs">
-                  {PERSONAL_INFO.shortName}
+                  {PERSONAL_INFO.fullName}
                 </td>
               </tr>
               <tr className="border-b border-foreground/5">
